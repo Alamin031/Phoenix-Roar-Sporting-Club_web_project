@@ -1,0 +1,40 @@
+
+
+ body  
+ {  
+     margin: 0;  
+     padding: 0;  
+     background-color:#4c8096ba;  
+     font-family: 'consolas';  
+ }
+
+
+#apartment-details {
+ font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#apartment-details td, #apartment-details th {
+  border: 1px solid #ddd;
+ padding: 8px;
+}
+#apartment-details tr{
+ transition: all 0.6s;
+  padding:3px; 
+ background-color:rgb(104, 216, 125);
+}
+
+#apartment-details tr:nth-child(even){background-color: #f2f2f2;}
+
+#apartment-details tr:hover {background-color: #ddd;}
+
+#apartment-details th {
+ padding-top: 12px;
+ padding-bottom: 12px;
+ text-align: left;
+ background-color: rgb(80, 68, 68);
+ color: white;
+ margin:5px;
+}
+
