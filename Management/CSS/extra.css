@@ -1,0 +1,20 @@
+div.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    padding: 5px;
+    background-color: #cae8ca;
+    border: 2px solid #4CAF50;
+  }
+  
+  ul {
+    background: #9370db;
+    padding: 20px;
+  }
+  
+  
+  ul li {
+    background: #cce5ff;
+    color: #000000;
+    margin: 5px;
+  }
